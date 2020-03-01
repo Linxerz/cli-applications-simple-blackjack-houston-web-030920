@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -52,6 +54,7 @@ end
 #####################################################
 
 def runner
+  binding.pry
   welcome
   hand = initial_round
   until hand > 21
