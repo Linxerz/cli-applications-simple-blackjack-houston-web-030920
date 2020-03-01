@@ -58,6 +58,6 @@ def runner
     hit?(hand)
     display_card_total(hand)
   end
-end_game(hand)
+  end_game(hand)
 
 end
