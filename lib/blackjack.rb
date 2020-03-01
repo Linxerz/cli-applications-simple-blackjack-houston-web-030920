@@ -29,7 +29,11 @@ def initial_round
 end
 
 def hit?(total)
-  total
+  if get_user_input == "s"
+    return total
+  end
+  total += deal_card
+
 end
 
 def invalid_command
