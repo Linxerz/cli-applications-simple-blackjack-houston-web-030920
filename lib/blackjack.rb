@@ -29,7 +29,9 @@ def initial_round
 end
 
 def hit?(total)
-  if get_user_input == "s"
+  prompt_user
+  input = get_user_input
+  if input == "s"
     return total
   end
   total += deal_card
