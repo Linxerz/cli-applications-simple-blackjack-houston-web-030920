@@ -54,9 +54,9 @@ end
 #####################################################
 
 def runner
-  binding.pry
   welcome
   hand = initial_round
+  binding.pry
   until hand > 21
     hit?(hand)
     display_card_total(hand)
