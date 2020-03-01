@@ -28,8 +28,8 @@ def initial_round
   hand
 end
 
-def hit?
-  # code hit? here
+def hit?(total)
+  total += deal_card
 end
 
 def invalid_command
