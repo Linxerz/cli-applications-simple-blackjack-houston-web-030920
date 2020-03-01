@@ -24,6 +24,7 @@ end
 
 def initial_round
   hand = deal_card + deal_card
+  display_card_total(hand)
 end
 
 def hit?
